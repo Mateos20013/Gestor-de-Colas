@@ -45,4 +45,4 @@ El archivo `config_azure.py` contiene la **cadena de conexión** y el **nombre d
 ```python
 # config_azure.py
 CONNECTION_STR = "Endpoint=sb://<NAMESPACE>.servicebus.windows.net/;SharedAccessKeyName=<POLICY_NAME>;SharedAccessKey=<PRIMARY_KEY>"
-QUEUE_NAME = "citas"
+QUEUE_NAME = "citas-medicas-queue"
